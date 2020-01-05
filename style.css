@@ -1,0 +1,126 @@
+.navbar {
+    min-height: 80px;
+}
+  
+body {
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+  
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    margin: auto 20px;
+    padding: 1.3rem 1rem;
+}
+
+.navbar-brand, .navbar-item, .nav-link {
+    font-family: Raleway;
+    color: white;
+}
+
+hr {
+    border-top: 2px solid #006400;
+    max-width: 50%;
+  }
+
+#headerImage {
+    background: url("AboutMe.jpg");
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    max-height: auto;
+}
+
+#headerImageWork {
+    background: url("Code.png");
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    max-height: auto;
+} 
+
+#headerImageProject {
+    background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    max-height: auto;
+}
+
+.card {
+    text-align: justify;
+    border-width: 0.1rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.card-header {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.header {
+    padding-top: 40px;
+    
+}
+
+.header2 {
+    padding-bottom: 70px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.hover {
+    background-color: white;
+}
+
+.experience {
+    margin: 50px auto;
+}
+
+.information {
+    text-align: left;
+}
+
+.experienceHeader {
+    font-weight: 700; font-size: 1.5rem;
+}
+
+.projectLogo {
+    margin: auto 30px;
+}
+
+#github {
+    margin-bottom: 50px;
+}
