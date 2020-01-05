@@ -1,6 +1,6 @@
-<h2>Welcome! Please click the button below to see my portfolio</h2>
+<h2>Welcome! Please click the folder below to see my portfolio</h2>
 
-[![button](https://officedepot.scene7.com/is/image/officedepot/936260_p_pendaflex_pressguard_color_classification_file_folder?$OD%2DLarge$&wid=450&hei=450)](https://justgo13.github.io/)
+[![button](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Folder.svg/1200px-Folder.svg.png)](https://justgo13.github.io/)
 
 <strong>Tools Used</strong>
 <ul> 
