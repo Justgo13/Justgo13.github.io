@@ -13,24 +13,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="about.html"><i class="fas fa-laptop-code"></i> Software Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="work.html">Work Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-            </ul>
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="work.html">Work Experience</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="projects.html">Projects</a>
+                  </li>
+              </ul>
             </div>
       </nav>
       
@@ -43,22 +43,22 @@
       <!-- HTML GAME -->
       <div class="container-fluid experience">
         <div class="row">
-            <div class="col-1 d-m-none">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fab fa-html5 fa-5x projectLogo" style="color: #f19408"></i>
                 <h3>HTML</h3>
             </div>
             
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fab fa-css3 fa-5x projectLogo" style="color: #264DE4"></i>
                 <h3>CSS</h3>
             </div>
             
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fab fa-js-square fa-5x projectLogo" style="color: #FFC732;"></i>
                 <h3>JavaScript</h3>
             </div>
 
-            <div class="col-7">
+            <div class="col-lg-7 col-md-8 col-sm-9">
                 <div class="information">
                   <h2 class="experienceHeader">Front-end Developer</h2>
                   <p>Color guessing game</p>
@@ -74,7 +74,7 @@
                   <!-- <input type="button" class="btn btn-outline-primary" onclick="location.href='./colorGame/colorGame.html';" value="Game Demo" /> -->
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-3">
                 <h2 class="experienceHeader">January 2020 - Present</h2>
             </div>
         </div>
@@ -83,22 +83,22 @@
     <!-- School system -->
     <div class="container-fluid experience">
         <div class="row">
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fab fa-java fa-4x" style="color: #f12308"></i>
                 <h3>Java</h3>
             </div>
 
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fas fa-bug fa-4x" style="color: #ff00ea;"></i>
                 <h3>JUnit test</h3>
             </div>
         
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fab fa-github fa-5x projectLogo" style="color: black;"></i>
                 <h3>GitHub</h3>
             </div>
 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-8 col-sm-9">
                 <div class="information">
                   <h2 class="experienceHeader">Java Developer</h2>
                   <p>University school system</p>
@@ -115,7 +115,7 @@
                   <a class="btn btn-outline-primary" href="SchoolSystem.jar">Download App</a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-3">
                 <h2 class="experienceHeader">December 2019 - Present</h2>
             </div>
         </div>
@@ -124,22 +124,22 @@
     <!-- Research Project -->
     <div class="container-fluid experience">
         <div class="row">
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fab fa-google fa-4x projectLogo" style="color: #08f12f"></i>
                 <h3>Google Scholar</h3>
             </div>
         
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fas fa-file-word fa-4x projectLogo" style=" color: #082bf1"></i>
                 <h3>Microsoft Word</h3>
             </div>
 
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <i class="fas fa-file-powerpoint fa-4x projectLogo" style="color: #f18c08"></i>
                 <h3>Microsoft PowerPoint</h3>
             </div>
 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-8 col-sm-9">
                 <div class="information">
                   <h2 class="experienceHeader">Team Member</h2>
                   <p>Automated Vehicle Research Project</p>
@@ -157,7 +157,7 @@
                  </form>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-3">
                 <h2 class="experienceHeader">September 2019 – November 2019</h2>
             </div>
         </div>
@@ -169,9 +169,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="navbar.js"></script>
   </body>
 </html>
