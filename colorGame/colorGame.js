@@ -8,7 +8,7 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resestButton = document.querySelector("#reset");
 var modeBtn = document.querySelectorAll(".mode");
-
+    
 init()
 
 function init() {
